@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <nav>
           <Navbar/>
         </nav>
-        <main className="min-h-[calc(100vh-124px)] flex justify-center items-center ">{children}</main>
+        <main className="min-h-[calc(100vh-124px)]   ">{children}</main>
         <footer>
           <Footer/>
         </footer>
